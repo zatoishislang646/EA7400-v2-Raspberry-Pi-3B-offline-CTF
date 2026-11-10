@@ -1,0 +1,30 @@
+Unprivileged authoring test results. All installer OS commands were mocked; no hardware deployment occurred.
+
+test_a_nodata_and_nxdomain (__main__.DNSUnit.test_a_nodata_and_nxdomain) ... ok
+test_authoritative_txt (__main__.DNSUnit.test_authoritative_txt) ... ok
+test_malformed_and_fuzz (__main__.DNSUnit.test_malformed_and_fuzz) ... ok
+test_apply_firewall_precedes_network_and_arena (__main__.InstallerMocks.test_apply_firewall_precedes_network_and_arena) ... ok
+test_atomic_state_failure_preserves_original (__main__.InstallerMocks.test_atomic_state_failure_preserves_original) ... ok
+test_failed_flag_generation_keeps_old_flags (__main__.InstallerMocks.test_failed_flag_generation_keeps_old_flags) ... ok
+test_firewall_transaction_not_global_flush (__main__.InstallerMocks.test_firewall_transaction_not_global_flush) ... ok
+test_malformed_url_returns_400 (__main__.InstallerMocks.test_malformed_url_returns_400) ... ok
+test_mocked_install_records_intent_and_enables_before_marker (__main__.InstallerMocks.test_mocked_install_records_intent_and_enables_before_marker) ... ok
+test_persistent_cutover_and_ready_unit (__main__.InstallerMocks.test_persistent_cutover_and_ready_unit) ... ok
+test_required_confirmations (__main__.InstallerMocks.test_required_confirmations) ... ok
+test_snapshot_uses_uuid_specific_properties (__main__.InstallerMocks.test_snapshot_uses_uuid_specific_properties) ... ok
+test_stop_failure_preserves_isolation (__main__.InstallerMocks.test_stop_failure_preserves_isolation) ... ok
+test_absolute_connection_deadline (__main__.LiveArena.test_absolute_connection_deadline) ... ok
+test_discovery_and_scope (__main__.LiveArena.test_discovery_and_scope) ... ok
+test_dns_udp_tcp (__main__.LiveArena.test_dns_udp_tcp) ... ok
+test_encoding_tcp (__main__.LiveArena.test_encoding_tcp) ... ok
+test_generation_refuses_overwrite (__main__.LiveArena.test_generation_refuses_overwrite) ... ok
+test_http_exhaustion_does_not_starve_dns (__main__.LiveArena.test_http_exhaustion_does_not_starve_dns) ... ok
+test_idor_and_no_filesystem_traversal (__main__.LiveArena.test_idor_and_no_filesystem_traversal) ... ok
+test_malformed_post_unicode_and_sql_limits (__main__.LiveArena.test_malformed_post_unicode_and_sql_limits) ... ok
+test_sqli_and_bad_login (__main__.LiveArena.test_sqli_and_bad_login) ... ok
+test_submission_and_body_bounds (__main__.LiveArena.test_submission_and_body_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 15.690s
+
+OK
